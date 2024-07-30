@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* Spread out children elements */
+    align-items: center;
+    /* Vertically center the items */
+    border-bottom: 0.1rem solid ; /* Default border (invisible) */
+    border-color: #6A6A6A;
+
+}
+
+.navbar nav {
+    display: flex;
+    /* Ensure the nav itself is a flex container */
+}
+
+.navbar nav a {
+    margin-left: 30px;
+    /* Add space between links */
+}
+
+.activeNav {
+    position: fixed;
+    width: 97.5%;
+    /* Ensure the navbar spans the full width of the screen */
+    transition: 1s;
+
+
+    
+}
+
+.navbar_name {
+    color: #ffffff;
+    font-family: "nasalization";
+    font-size: 2rem;
+}
+
+nav a {
+    color: #35c1af;
+    font-family: "Sansation_Regular";
+}
+
+.navbar a {
+    text-decoration: none;
+}

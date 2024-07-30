@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  background-image: url("./assets/bg_elongated.png");
+  background-size: auto 40rem; /* Adjust height, width scales automatically */
+  background-repeat:repeat;
+  background-attachment: fixed;
+  cursor: none;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("./assets/Quicksand-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MONTSERRAT";
+  src: url("./assets/MONTSERRAT-VARIABLEFONT_WGHT.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Occupied";
+  src: url("./assets/Occupied.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nasalization";
+  src: url("./assets/nasalization-rg.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quicksand-SemiBold";
+  src: url("./assets/Quicksand-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sansation_Regular";
+  src: url("./assets/Sansation_Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sansation_Bold";
+  src: url("./assets/Sansation_Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,103 @@
+.home {
+  color: aqua;
+}
+
+.home_body {
+  padding: 3rem;
+}
+
+.cursor-dot{
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  z-index: 1;
+}
+
+.cursor-outline{
+  width: 30px;
+  height: 30px;
+  
+  border: 2px solid hsla(0, 0%, 100%, 0.5);
+}
+
+.cursor-dot,
+.cursor-outline{
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.home_para1 {
+  font-family: "MONTSERRAT SemiBold";
+  color: white;
+  font-size: 3rem;
+  width: 80%;
+  margin-top: 8rem;
+}
+
+.home_para1_1 {
+  font-family: "MONTSERRAT SemiBold";
+  color: white;
+  font-size: 3rem;
+  
+  
+}
+
+.home_para1_cd {
+  font-family: "MONTSERRAT SemiBold";
+  overflow: hidden;
+}
+
+.changing {
+  display: block;
+  height: 100%;
+  padding-left: 10px;
+  color: #35c1af;
+  background-color: transparent; /* Ensure no background color */
+  animation: spin_words 8s infinite;
+}
+
+.words {
+  overflow: hidden;
+  height: 5rem; /* Adjust this to match the height of one word */
+}
+
+@keyframes spin_words {
+  0%, 20% {
+    transform: translateY(0%);
+  }
+
+  25%, 45% {
+    transform: translateY(-100%);
+  }
+
+  50%, 70% {
+    transform: translateY(-200%);
+  }
+
+  75%, 95% {
+    transform: translateY(-300%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.thirdline{
+  display: flex;
+}
+
+.home_projects_title{
+  color: white;
+  font-family: "nasalization";
+  font-size: 2rem;
+
+}
+
+.home_projects_body{
+  margin-top: 8rem;
+}
